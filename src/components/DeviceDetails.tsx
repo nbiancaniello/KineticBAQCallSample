@@ -31,7 +31,7 @@ const DeviceDetails: React.FC<DeviceDetailsProps> = ({ device, onBack }) => {
       }
     };
 
-    fetchMetrics();
+    //fetchMetrics();
   }, [device.id]);
 
   const renderMetrics = () => {

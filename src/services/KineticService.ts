@@ -18,6 +18,7 @@ export class KineticService {
             headers: {
                 'Accept': 'application/json',
                 'Content-Type': 'application/json',
+                'X-API-Key': apiKey,
                 'Authorization': `Basic ${basicAuth}`
             },
             params: {
